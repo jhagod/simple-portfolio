@@ -346,3 +346,11 @@ a{
 }
 
 }
+@media(max-width:768px){
+
+.hbd{
+    width:90%;
+    max-width:300px;
+}
+
+}
