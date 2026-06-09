@@ -326,11 +326,7 @@ a{
 }
 
 }
-@media (max-width:768px){
-    body{
-        background:red;
-    }
-}
+
 @media (max-width:768px){
 
 .me{
