@@ -2,11 +2,20 @@
 <html>
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+    <div class="particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
     <div class="hero">
         <img src="https://damassets.autodesk.net/content/dam/autodesk/www/industry/3d-animation/create-beautiful-3d-animations-thumb-1204x677.jpg"
             alt="harshit photo" class="photo">
@@ -44,7 +53,7 @@
         </p>
     </div>
     <h1 class="hello" id="S">SKILLS</h1>
-    <div class="outer" >
+    <div class="outer">
 
         <div class="skill">
             <h3 class="name">HTML </h3>
@@ -119,21 +128,46 @@
     </div>
     </div>
     <div class="contact" id="C">
-        <h1>CONTACT ME:</h1>
-        <div class="contact-msg">
-          <p>Feel free to reach out if you'd like to connect, discuss projects, or explore opportunities. I'm always eager to learn, collaborate, and take on new challenges.
-</p>
-
-<div class="give">
-<input type="text" placeholder="NAME" class="email">
-<input type="text" placeholder="EMAIL" class="email">
-<input type="text" placeholder="YOUR MESSAGE" class="sent">
-<button class="message">SEND</button>
-</div>
-<p>Linkedln : harshit@789</p>
-
+        <h1>CONTACT ME</h1>
+        <div class="contact-card">
+            <p class="contact-intro">Feel free to reach out if you'd like to connect, discuss projects, or explore opportunities. I'm always eager to learn, collaborate, and take on new challenges.</p>
+            <div class="give">
+                <input type="text" placeholder="Name" class="email">
+                <input type="email" placeholder="Email" class="email">
+                <textarea placeholder="Your message" class="sent"></textarea>
+                <button class="message" type="button">Send Message</button>
+            </div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-about">
+                <h2 class="footer-name">Harshit Raj Jha</h2>
+                <p class="footer-role">Aspiring Software Developer</p>
+                <p class="footer-tags">Java • DSA • Web Development</p>
+                <p class="footer-social">
+                    <a href="https://github.com/jhagod" target="_blank">GitHub</a>
+                    <span class="footer-divider">|</span>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <span class="footer-divider">|</span>
+                    <a href="#C">Email</a>
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-links-title">Quick Links</h3>
+                <nav class="footer-nav">
+                    <a href="#A">About</a>
+                    <a href="#S">Skills</a>
+                    <a href="#P">Projects</a>
+                    <a href="#C">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Harshit Raj Jha. Built with HTML &amp; CSS.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
